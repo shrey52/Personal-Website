@@ -1,0 +1,14 @@
+#navbarNav{
+    padding-left: 350px;
+}
+.one{
+    padding-top: 100px;
+    width: 340px;
+    border-top: 10px solid black;
+    margin:20px;
+    background: linear-gradient(90deg,rgba(211, 211, 211, 0.425) 50% ,rgba(255, 255, 255, 0.993) 50%);
+}
+body {
+    height: 100%;
+    background: linear-gradient(90deg, white 50%, lightgrey 50%);
+}

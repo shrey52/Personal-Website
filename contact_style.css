@@ -1,0 +1,59 @@
+#navbarNav{
+    padding-left: 350px;
+}
+
+.Form{
+    color: black;
+    padding-top: 10px;
+}
+
+select{
+    width: 10%;
+    padding: 5px;
+    border: none;   
+    border-radius: 4px;
+    background-color: rgba(231, 231, 231, 0.856);
+}
+
+textarea{
+    background-color: rgba(231, 231, 231, 0.856);
+    border: none;
+    border-radius: 4px;
+}
+
+#name{
+    background-color: rgba(231, 231, 231, 0.856);
+    border: none;
+    border-radius: 4px;
+}
+
+#phone_no{
+    background-color: rgba(231, 231, 231, 0.856);
+    border: none;
+    border-radius: 4px;
+}
+
+#email{
+    background-color: rgba(231, 231, 231, 0.856);
+    border: none;
+    border-radius: 4px;
+}
+
+#dob{
+    background-color: rgba(231, 231, 231, 0.856);
+    border: none;
+    border-radius: 4px;
+}
+
+#submit{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+#reset{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}

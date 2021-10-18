@@ -1,0 +1,115 @@
+@import "compass/css3";
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+body {
+	background: linear-gradient(-45deg, rgb(0, 247, 255), #23a6d5, #23d5ab ,purple ,red, darkgreen);
+	background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
+	height: 100vh;
+    margin-left: 160px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#logo{
+    padding-top: 100px;
+    padding-left: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color:white;
+}
+
+#tagline{
+    padding-left: 280px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    color: black;
+}
+
+.container{
+    padding-left: 10px;
+}
+
+#navbarNav{
+    padding-left: 290px;
+}
+
+.left{
+    width:50%;
+    float: left;
+}
+
+.right{
+    padding-top: 60px;
+    margin-left: 50%;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden; 
+    padding-top: 80px;
+}
+  
+ 
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: medium;
+    color: #818181;
+    display: block;
+}
+  
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+  
+
+.main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+}
+  
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#subpage{
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
